@@ -1,0 +1,11 @@
+# SHA-256 of the Stockfish.js 19.0.1 engine files Kibitz serves (identical to the
+# assets of https://github.com/nmrugg/stockfish.js/releases/tag/v19.0.1).
+# Checked on 12 November 2026 against https://kibitz.shaffarullah.workers.dev/engine/
+ccb130d7ff29408531c47d859a49f91d59d4f482d05a53eb1a3231a4f624c91a  stockfish-19-lite-single.js
+ee4f115bdb2d32cadf96cada104a05b5ec257d7ad6f57582190b49bc71f096de  stockfish-19-lite-single.wasm
+dac939ff529668e0168b2f615145ec18b029b753deb6963fd7319d788f964333  stockfish-19-lite.js
+ddf06cdaf0b8e35c11b40530e44db96c2a99c9029c8d621dd9fca97e4872770c  stockfish-19-lite.wasm
+8071dee87312f74805a859de933e1a1ef465579ab1a51fbd597388cdce9d444d  stockfish-19-single.js
+991bede2f253ebb08ff01fcc48270f4b9c8e66b12d5bd5f8d6f52eb3e3b3a740  stockfish-19-single.wasm
+623ee70a10d6dc202375127b49e2e1822635f9ab07693ae7be28e50a787f6218  stockfish-19.js
+a599d78d72e0722d8895be84aca8b492d12e8bba3cdfcbcbc4a64017888c6667  stockfish-19.wasm

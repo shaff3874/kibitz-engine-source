@@ -1,17 +1,17 @@
 // Copyright (C) 2026 Shaffarullah Abdul Rahman
 //
-// This file is part of Kibitz's Stockfish packaging and is free software: you can
+// This file is part of Plyread's Stockfish packaging and is free software: you can
 // redistribute it and/or modify it under the terms of the GNU General Public License as
 // published by the Free Software Foundation, either version 3 of the License, or (at your
 // option) any later version. It is distributed WITHOUT ANY WARRANTY; without even the
 // implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
 // General Public License for more details: https://www.gnu.org/licenses/gpl-3.0.html
-// Source: https://github.com/shaff3874/kibitz-engine-source
+// Source: https://github.com/shaff3874/plyread-engine-source
 
-/* Kibitz's Strong engine: Stockfish 19 with its full network (about 94 MB), for Kibitz's own site.
+/* Plyread's Strong engine: Stockfish 19 with its full network (about 94 MB), for Plyread's own site.
    Cloudflare serves files of up to 25 MB, so the engine's .wasm is stored in parts. This worker joins them,
    keeps them in this site's cache so the download happens once, and hands the engine one whole file.
-   Progress lines ("kibitz download <bytes> <total>") are posted for the page; the engine ignores them. */
+   Progress lines ("kibitz download <bytes> <total>", an internal message name kept from before the rename) are posted for the page; the engine ignores them. */
 (function () {
   'use strict';
   var PARTS = __PARTS__, TOTAL = __TOTAL__, CACHE = '__CACHE__';

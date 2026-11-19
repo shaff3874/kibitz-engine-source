@@ -1,6 +1,6 @@
-# SHA-256 of the Stockfish.js 19.0.1 engine files Kibitz serves (identical to the
+# SHA-256 of the Stockfish.js 19.0.1 engine files Plyread serves (identical to the
 # assets of https://github.com/nmrugg/stockfish.js/releases/tag/v19.0.1).
-# Checked on 12 November 2026 against https://kibitz.shaffarullah.workers.dev/engine/
+# Checked on 19 November 2026 against the files deployed at https://plyread.com/engine/
 ccb130d7ff29408531c47d859a49f91d59d4f482d05a53eb1a3231a4f624c91a  stockfish-19-lite-single.js
 ee4f115bdb2d32cadf96cada104a05b5ec257d7ad6f57582190b49bc71f096de  stockfish-19-lite-single.wasm
 dac939ff529668e0168b2f615145ec18b029b753deb6963fd7319d788f964333  stockfish-19-lite.js
